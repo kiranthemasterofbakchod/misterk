@@ -96,15 +96,17 @@ to {
 }
 } */
 #main-header {
-  max-width: 1500px;
+  max-width: 2000px;
   margin: 0 auto;
+  /* background: #000; */
   /* background: #000; */
 }
 .header-container {
   /* background: #000; */
   /* position: relative; */
-  padding: 2em 5em 0 5em;
+  padding: 2em 0em 0 0em;
   transform: translateY(180px);
+  width: 100%;
   transition: transform 150ms linear;
   /* background: rgb(216, 196, 196); */
 }
@@ -114,31 +116,29 @@ to {
 }
 
 .header-content {
-  /* position: absolute;
-top: 0;
-left: 0; */
-  /* height: 70vh; */
-  /* display: flex;
-justify-content: center; */
+  width: 100%;
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: center; */
   /* background-color: #95d5d3; */
   /* background: #000; */
   /* background: rgb(156, 86, 86); */
   /* transform: scale(0.6); */
   margin: 0 0 0 3em;
   /* background: #fff; */
+  transform: scale(1.2) translate(0px, 50px);
 }
 
 .header-content.anim {
-  transform: scale(0.8) translate(0px, -50px);
+  transform: scale(1) translate(0px, 0px);
   transition: transform 100ms;
 }
 .header-content .main-nav {
   font-family: 'Roboto', sans-serif;
   /* height: 20vh; */
   width: 100%;
-  /* display: flex; */
   /* height: 30em; */
-  /* background: #000; */
+  /* background: red; */
   display: flex;
 }
 
@@ -148,6 +148,7 @@ justify-content: center; */
   animation: prim 750ms;
   font-family: cursive, sans-serif;
   color: green;
+  height: 100%;
   background: #fff;
 }
 @keyframes prim {
@@ -171,7 +172,7 @@ justify-content: center; */
   height: 250px; */
   /* background: #7ef5f1; */
   transition: transform 200ms;
-  margin: 0 4em;
+  margin: 0 0em 0 10em;
 }
 .prof #k {
   font-size: 10em;
@@ -221,24 +222,24 @@ justify-content: center; */
 }
 
 .text {
-  /* background-color: #95d5d3; */
   color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-  height: 300px;
+  /* height: 300px; */
   text-align: left;
   font-family: 'Roboto', sans-serif;
-  max-width: 1100px;
-  margin: 5% 0 0 0;
-  opacity: 0;
-  transform: translateY(25%);
+  max-width: 1300px;
+  margin: 5% auto 0 auto;
+  opacity: 1;
+  padding: 2em 0;
+  width: 100%;
+  transform: translateY(0%);
+  /* background-color: red; */
   text-shadow: 3px 3px rgb(0, 0, 0);
 }
 .text.w {
-  opacity: 1;
-  transform: translateY(0%);
   /* background: green; */
 }
 .text.scrolled {
