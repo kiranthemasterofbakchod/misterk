@@ -11,21 +11,26 @@ const data = [
     content: <p>Hotel WebSite</p>,
     src: photo1,
     codeStatus: false,
+    url: '',
   },
   {
     content: <p>Weather App</p>,
     src: photo2,
     codeStatus: true,
+    url: 'https://weatherappkiran.herokuapp.com/',
+    repo: 'https://github.com/thekiran/weather-app',
   },
   {
     content: <p>more details gagi click madi</p>,
     src: '',
     codeStatus: true,
+    url: '',
   },
   {
     content: <p>more details gagi click madi</p>,
     src: '',
     codeStatus: true,
+    url: '',
   },
 ]
 const Showcase = () => {
@@ -66,6 +71,8 @@ const Showcase = () => {
                 content={ele.content}
                 src={ele.src}
                 shower={true}
+                url={ele.url}
+                repo={ele.repo}
               />
             )
           })}

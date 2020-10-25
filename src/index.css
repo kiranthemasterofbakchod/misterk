@@ -14,13 +14,19 @@
 }
 
 .sweep {
-  background-image: url('./img/main.gif');
   position: absolute;
   top: 40%;
   left: 40%;
   height: 100%;
   width: 100%;
-  background-repeat: no-repeat;
+}
+.sweep::after {
+  content: 'Loading...';
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  height: 100%;
+  width: 100%;
 }
 .sweep-head.sweep--hide {
   opacity: 0;
@@ -39,6 +45,6 @@ body {
 }
 
 .space {
-  height: 200vh;
+  height: 200px;
   width: 100vw;
 }

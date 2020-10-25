@@ -1,7 +1,7 @@
 import React, { Fragment, useCallback, useRef } from 'react'
 
 import './header.css'
-import logo from '../../img/logo.png'
+import logo from '../../img/prologo.jpg'
 import Showcase from '../showcase/showcase'
 
 import './slider.css'
@@ -80,8 +80,13 @@ const Header = () => {
             <div ref={hc} className='header-content'>
               <div className='main-nav'>
                 <div className='prof'>
-                  <span id='k'>K</span>
+                  <div className='logo'>
+                    <img src={logo} className='img' />
+                  </div>
                 </div>
+                {/* <div className='prof'>
+                  <span id='k'>K</span>
+                </div> */}
                 <p className='text-title-primary'>Hi, My Name is Kirn</p>
               </div>
               <div ref={target} className='text w'>

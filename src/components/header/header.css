@@ -179,8 +179,16 @@ to {
   color: #fff;
   /* background: #000; */
 }
+.prof .logo {
+  width: 100px;
+}
+.prof .logo .img {
+  width: 150px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
 .main-nav .prof.anim {
-  transform: rotate(-45deg);
+  /* transform: rotate(-45deg); */
 }
 /* @keyframes prof {
   0% {
@@ -288,7 +296,7 @@ to {
     /* background: #000; */
   }
   .text .text-main {
-    font-size: 1vw;
+    font-size: 1.4vw;
     margin-top: 5em;
   }
   .text {
