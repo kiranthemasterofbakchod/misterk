@@ -21,18 +21,18 @@ const data = [
     url: 'https://weatherappkiran.herokuapp.com/',
     repo: 'https://github.com/thekiran/weather-app',
   },
-  {
-    content: <p>more details gagi click madi</p>,
-    src: '',
-    codeStatus: true,
-    url: '',
-  },
-  {
-    content: <p>more details gagi click madi</p>,
-    src: '',
-    codeStatus: true,
-    url: '',
-  },
+  // {
+  //   content: <p>more details gagi click madi</p>,
+  //   src: '',
+  //   codeStatus: true,
+  //   url: '',
+  // },
+  // {
+  //   content: <p>more details gagi click madi</p>,
+  //   src: '',
+  //   codeStatus: true,
+  //   url: '',
+  // },
 ]
 const Showcase = () => {
   // const options = {
