@@ -1,17 +1,18 @@
 import React, { useCallback, useRef, useState } from 'react'
 import Project from './project'
 
-import photo1 from '../../img/photo1.png'
 import photo2 from '../../img/photo2.jpg'
+import hotel from '../../img/photo1.png'
 
 import './showcase.css'
 
 const data = [
   {
     content: <p>Hotel WebSite</p>,
-    src: photo1,
-    codeStatus: false,
-    url: '',
+    src: hotel,
+    codeStatus: true,
+    url: 'https://thekiran.github.io/hotelsite/',
+    repo: 'https://github.com/thekiran/hotelsite',
   },
   {
     content: <p>Weather App</p>,

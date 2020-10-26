@@ -9,8 +9,10 @@ const Contact = () => {
         if (entries[0].isIntersecting) {
           console.log(entries[0].target)
           entries[0].target.classList.add('anim')
+          entries[0].target.classList.remove('out')
         } else {
           entries[0].target.classList.remove('anim')
+          entries[0].target.classList.add('out')
         }
       },
       {

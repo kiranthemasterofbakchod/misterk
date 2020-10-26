@@ -90,11 +90,17 @@ const Header = () => {
                 <p className='text-title-primary'>Hi, My Name is Kirn</p>
               </div>
               <div ref={target} className='text w'>
-                <p className='text-title'>Hi, My Name is Kirn.</p>
+                {/* <p className='text-title'>Hi, My Name is Kirn.</p> */}
                 <p className='text-main'>
                   I'm a Web Developer, I Specialize on both Front-end &
-                  Back-end. <br /> Building beautiful websites is my passion.
-                  <br />
+                  Back-end.
+                </p>
+                {/* <br /> */}
+                <p className='text-main'>
+                  Building beautiful websites is my passion.
+                </p>
+                {/* <br /> */}
+                <p className='text-main'>
                   You can contact me anytime or checkout my other projects.
                 </p>
               </div>

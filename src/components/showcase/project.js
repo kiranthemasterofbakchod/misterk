@@ -1,6 +1,6 @@
 import React, { Fragment, useCallback, useEffect, useState } from 'react'
 
-const Project = ({ index, content, src, codeStatus, shower, url }) => {
+const Project = ({ index, content, src, codeStatus, shower, url, repo }) => {
   // console.log(index);
   // const showf = () => {
   // 	if (shower) {
@@ -55,7 +55,7 @@ const Project = ({ index, content, src, codeStatus, shower, url }) => {
     <Fragment>
       <div ref={pro} className='project'>
         <div className='pro-img'>
-          <img src={src} alt='' />
+          <img src={src} alt='' loading='lazy' />
         </div>
         <div className='pro-content-box'>
           <div className='pro-content'>
@@ -65,7 +65,7 @@ const Project = ({ index, content, src, codeStatus, shower, url }) => {
                 <button>View Site</button>
               </a>
               {codeStatus ? (
-                <a href={repo}>
+                <a href={repo} target='_blank'>
                   <button>View Code</button>
                 </a>
               ) : (
