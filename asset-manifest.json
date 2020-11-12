@@ -1,11 +1,13 @@
 {
-  "main.css": "static/css/main.2137922a.css",
-  "main.css.map": "static/css/main.2137922a.css.map",
-  "main.js": "static/js/main.48c5c2b5.js",
-  "main.js.map": "static/js/main.48c5c2b5.js.map",
+  "main.css": "static/css/main.4d29e0c9.css",
+  "main.css.map": "static/css/main.4d29e0c9.css.map",
+  "main.js": "static/js/main.06222525.js",
+  "main.js.map": "static/js/main.06222525.js.map",
   "static\\media\\campaign-creators-RSc6D7bO0fA-unsplash.jpg": "static/media/campaign-creators-RSc6D7bO0fA-unsplash.50067fde.jpg",
+  "static\\media\\ecom.png": "static/media/ecom.6ab78f20.png",
   "static\\media\\loading.gif": "static/media/loading.2c84622f.gif",
   "static\\media\\photo1.png": "static/media/photo1.790842f8.png",
   "static\\media\\photo2.jpg": "static/media/photo2.d7721de8.jpg",
-  "static\\media\\prologo.jpg": "static/media/prologo.b395ddca.jpg"
+  "static\\media\\prologo.jpg": "static/media/prologo.b395ddca.jpg",
+  "static\\media\\transfer.png": "static/media/transfer.788d84b8.png"
 }
