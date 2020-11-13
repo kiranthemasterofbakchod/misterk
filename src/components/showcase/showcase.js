@@ -20,7 +20,7 @@ const data = [
 		content: <p>Weather App</p>,
 		src: photo2,
 		codeStatus: true,
-		url: 'https://weatherappkiran.herokuapp.com/',
+		url: 'https://thekiran.github.io/serve/',
 		repo: 'https://github.com/thekiran/weather-app'
 	},
 	{
